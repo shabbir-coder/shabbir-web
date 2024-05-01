@@ -910,12 +910,7 @@ h5.text-cust{
 }
 
 .download-button {
-    width: 80% !important;
     border-radius: 0;
-	margin:22px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 .download-button a{
 	color: #eee;
@@ -936,6 +931,23 @@ h5.text-cust{
     pointer-events: none; /* Allows interaction with elements below the overlay */
 }
 
+.fifth-content .container-fluid h5{
+	font-size: 1.7rem;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+
+.action-button{
+	padding: 10px;
+	display: flex;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	flex-direction: column;
+	gap: 10px;
+}
 
 /* REPONSIVE */
 
@@ -1064,13 +1076,6 @@ h5.text-cust{
 	.download-button {
 		margin:6px;
 		width: 90% !important;
-	}
-
-	.fifth-content .container-fluid h5{
-		font-size: 1.7rem;
-		font-weight: 300;
-		line-height: 30px;
-		padding-bottom: 10px;
 	}
 	
 }
